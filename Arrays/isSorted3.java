@@ -4,26 +4,21 @@ public class isSorted3 {
     
     public static void main(String[] args){
 
-        int[] arr = {1, 2, 56, 4, 5, 6};
+        int[] arr = {1, 2, 3, 4, 5, 6};
 
+        boolean ans = isSorted(arr);
+        System.out.println(ans);
 
-        boolean isSorted = false;
+        
+    }
+
+    public static boolean isSorted(int[] arr){
 
         for(int i = 1; i < arr.length; i++){
-
-            if(arr[i] > arr[i-1]){
-                isSorted = true;
-            }
-            else{
-                isSorted = false;
-                break;
+            if(arr[i] < arr[i-1]){
+                return false;
             }
         }
-
-        if(isSorted){
-            System.out.println("Sorted");
-        }else{
-            System.out.println("UnSorted");
-        }
+        return true;
     }
 }
