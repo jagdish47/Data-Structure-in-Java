@@ -1,6 +1,6 @@
 package Arrays;
 
-public class isSorted {
+public class isSorted2 {
 
     public static void main(String[] args){
 

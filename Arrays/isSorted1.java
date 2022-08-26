@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class SortedOrNot {
+public class isSorted1 {
     
     public static void main(String[] args){
 
