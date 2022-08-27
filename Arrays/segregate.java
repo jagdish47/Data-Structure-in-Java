@@ -9,7 +9,7 @@ public class segregate {
 
         int i = 0;
 
-        for(int j = 1; j < arr.length; j++){
+        for(int j = 0; j < arr.length; j++){
             if(arr[j] < 0){
                 int temp = arr[i];
                 arr[i] = arr[j];
