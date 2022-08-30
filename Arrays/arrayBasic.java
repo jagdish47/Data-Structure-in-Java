@@ -6,12 +6,12 @@ public class arrayBasic {
     
     public static void main(String[] args){
 
-        int[] Intarr = new int[5];
-        char[] charArr = new char[5]; 
-        boolean[] boolArr = new boolean[5];
+        // int[] Intarr = new int[5];
+        // char[] charArr = new char[5]; 
+        // boolean[] boolArr = new boolean[5];
 
         // Taking Input in Java
-        Scanner inp = new Scanner(System.in);
+        // Scanner inp = new Scanner(System.in);
 
 
         // // Taking Input Integer in Java (Array)
@@ -41,15 +41,15 @@ public class arrayBasic {
 
         // Taking Input as Boolean in java
         // Only take true or false
-        for(int j = 0; j < boolArr.length; j++){
-            System.out.println("Boolean : " + j);
-            boolArr[j] = inp.nextBoolean();
-        }
+        // for(int j = 0; j < boolArr.length; j++){
+        //     System.out.println("Boolean : " + j);
+        //     boolArr[j] = inp.nextBoolean();
+        // }
 
-        // Printing
-        for(int i = 0; i < boolArr.length; i++){
-            System.out.print(boolArr[i] + " ");
-        }
+        // // Printing
+        // for(int i = 0; i < boolArr.length; i++){
+        //     System.out.print(boolArr[i] + " ");
+        // }
 
 
 
